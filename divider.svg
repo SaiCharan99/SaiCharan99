@@ -1,0 +1,12 @@
+<svg width="980" height="36" viewBox="0 0 980 36" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left arm -->
+  <line x1="0" y1="18" x2="462" y2="18" stroke="#0D9488" stroke-width="0.5" opacity="0.22"/>
+  <!-- Right arm -->
+  <line x1="518" y1="18" x2="980" y2="18" stroke="#0D9488" stroke-width="0.5" opacity="0.22"/>
+  <!-- Kolam dot cluster (centre) -->
+  <circle cx="490" cy="18" r="2.5" fill="#0D9488" opacity="0.6"/>
+  <circle cx="490" cy="11" r="1.2" fill="#0D9488" opacity="0.28"/>
+  <circle cx="490" cy="25" r="1.2" fill="#0D9488" opacity="0.28"/>
+  <circle cx="483" cy="18" r="1.2" fill="#0D9488" opacity="0.28"/>
+  <circle cx="497" cy="18" r="1.2" fill="#0D9488" opacity="0.28"/>
+</svg>
