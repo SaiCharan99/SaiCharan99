@@ -1,21 +1,13 @@
+![](./banner.svg)
+
 <div align="center">
-
-<sub>Vanakkam &nbsp;·&nbsp; Hello &nbsp;·&nbsp; నమస్కారం &nbsp;·&nbsp; नमस्ते &nbsp;·&nbsp; こんにちは &nbsp;·&nbsp; Hola</sub>
-
-<br><br>
-
-# Venkata **Sai** Charan Naidu Kuppala
-
-<p><sub>Melbourne, Australia &nbsp;·&nbsp; M.IT · University of Melbourne</sub></p>
-
-<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230D9488.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kvscn)&nbsp;
 [![Email](https://img.shields.io/badge/Gmail-%230D9488.svg?style=flat-square&logo=gmail&logoColor=white)](mailto:saicharanactive@gmail.com)
 
 </div>
 
----
+![](./divider.svg)
 
 I build things with care — software that feels intuitive, photographs that hold a moment, and movements in Iaido that embody *zanshin*.
 
@@ -30,7 +22,7 @@ A software engineer with 4+ years of professional experience across mobile and w
 - Performance profiling — apps that feel fast and consume minimal memory
 - Turning messy real-world problems into clean, deliberate software
 
-<br>
+![](./divider.svg)
 
 **Tech**
 
@@ -42,9 +34,11 @@ A software engineer with 4+ years of professional experience across mobile and w
 
 `Git` `Sentry` `PostHog` `Charles Proxy` `Figma` `Cursor` `Claude Code`
 
-<br>
+![](./divider.svg)
 
 **Projects**
+
+[**Dash-EV**](https://github.com/SaiCharan99/Dash-EV) &nbsp;·&nbsp; Dual-product data analytics platform — EV market intelligence & Australian energy transition &nbsp;·&nbsp; FastAPI · Dash · Plotly
 
 [**SiteSpace**](https://sitespace.com.au) &nbsp;·&nbsp; AI-powered construction asset booking platform &nbsp;·&nbsp; *Co-Founder*
 
@@ -52,7 +46,7 @@ A software engineer with 4+ years of professional experience across mobile and w
 
 [**Senstride**](http://main.d1ddvpozee4rfm.amplifyapp.com) &nbsp;·&nbsp; Gamified ML data labelling on serverless AWS
 
----
+![](./divider.svg)
 
 <div align="center">
 <sub>Crafted with intention &nbsp;·&nbsp; Melbourne, AU</sub>
