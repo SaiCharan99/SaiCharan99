@@ -1,44 +1,72 @@
-# Hey 👋 I'm Sai
+<div align="center">
 
-Full-stack software engineer with 4+ years shipping production apps to real users. I like taking things from 0 to production and figuring out the hard parts along the way.
+<sub>Vanakkam &nbsp;·&nbsp; Hello &nbsp;·&nbsp; నమస్కారం &nbsp;·&nbsp; नमस्ते &nbsp;·&nbsp; こんにちは &nbsp;·&nbsp; Hola</sub>
 
-## ⚡ Current Work
+<br><br>
 
-Co-founding and building [SiteSpace](https://sitespace.com.au) across mobile, web, and AI — React & React Native apps, FastAPI backends, intelligent scheduling, and everything in between.
+# Venkata **Sai** Charan Naidu Kuppala
 
-## 💡 What I Like Working On
+<p>Software Engineer &nbsp;·&nbsp; Iaido Practitioner &nbsp;·&nbsp; Photographer &nbsp;·&nbsp; South Indian Culture</p>
+<p><sub>Melbourne, Australia &nbsp;·&nbsp; M.IT · University of Melbourne</sub></p>
 
-- Full-stack product builds from architecture to app store
-- AI-assisted tooling and integrating LLMs using agentic workflows
-- Performance profiling and making apps feel fast while consuming the least memory
-- Turning messy real-world problems into clean software
+<br>
 
-## 🔧 Tech I Use
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230D9488.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kvscn)&nbsp;
+[![Email](https://img.shields.io/badge/Gmail-%230D9488.svg?style=flat-square&logo=gmail&logoColor=white)](mailto:saicharanactive@gmail.com)&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-%230D9488.svg?style=flat-square&logo=vercel&logoColor=white)](https://sitespace.com.au)
 
-**Languages:** JavaScript, TypeScript, Python, Java, C#, Kotlin, Swift, GoLang, SQL, Bash  
-**Mobile:** React Native (iOS & Android), Xcode, Android Studio  
-**Frontend:** React, Next.js, Redux-Saga, HTML/CSS, Sass  
-**Backend:** FastAPI, Node.js, .NET, Spring Boot, PHP Laravel  
-**Cloud/DevOps:** AWS (Lambda, S3, DynamoDB, Amplify, Cognito, SQS), Azure, GCP, Docker, Terraform, Vercel, Nginx, CI/CD  
-**Data:** PostgreSQL, MySQL, MongoDB, DynamoDB, Redis, PostGIS  
-**Tools:** Git, Sentry, PostHog, Charles Proxy, Figma, Cursor, Claude Code
+</div>
 
-## 🔗 Recent Projects
+---
 
-- [**SiteSpace**](https://sitespace.com.au) — AI-powered construction asset booking platform (Co-Founder)
-- [**EarlySpot**](https://earlydemospot.link/dashboard) — Melanoma detection app, deep learning model to production
-- [**Senstride**](main.d1ddvpozee4rfm.amplifyapp.com) — Gamified ML data labelling platform on serverless AWS
+I build things with care — software that feels intuitive, photographs that hold a moment, and movements in Iaido that embody *zanshin*.
 
+A software engineer with 4+ years of professional experience across mobile and web. Born in Andhra Pradesh, now based in Melbourne. Rooted in South Indian culture — its art, music, and philosophy guide how I approach both code and life.
 
-## ✉️ Connect
+<br>
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/kvscn">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:saicharanactive@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+**Currently**
 
-<!-- Built two startups, debugged one cold launch, and still believe engineering is the closest thing to magic. -->
+| | |
+|:--|:--|
+| `Co-Founder` | [SiteSpace](https://sitespace.com.au) — AI-powered construction asset booking · React Native · FastAPI · AWS |
+| `Intern` | Focus Bear, Melbourne — Mobile App Developer |
+| `Student` | University of Melbourne — Masters of Information Technology |
+| `President` | IHGSA — International House Graduate Student Association |
+
+<br>
+
+**What I work on**
+
+- Full-stack product builds — from system architecture to app store submission
+- AI-assisted tooling and agentic workflows with LLMs
+- Performance profiling — apps that feel fast and consume minimal memory
+- Turning messy real-world problems into clean, deliberate software
+
+<br>
+
+**Tech**
+
+`JavaScript` `TypeScript` `Python` `Java` `Kotlin` `Swift` `C#` `GoLang` `SQL` `Bash`
+
+`React Native` `React` `Next.js` `Redux-Saga` `FastAPI` `Node.js` `.NET` `Spring Boot` `Laravel`
+
+`AWS` `Azure` `GCP` `Docker` `Terraform` `PostgreSQL` `MongoDB` `Redis` `PostGIS`
+
+`Git` `Sentry` `PostHog` `Charles Proxy` `Figma` `Cursor` `Claude Code`
+
+<br>
+
+**Projects**
+
+[**SiteSpace**](https://sitespace.com.au) &nbsp;·&nbsp; AI-powered construction asset booking platform &nbsp;·&nbsp; *Co-Founder*
+
+[**EarlySpot**](https://earlydemospot.link/dashboard) &nbsp;·&nbsp; Melanoma detection — deep learning model to production app
+
+[**Senstride**](http://main.d1ddvpozee4rfm.amplifyapp.com) &nbsp;·&nbsp; Gamified ML data labelling on serverless AWS
+
+---
+
+<div align="center">
+<sub>Crafted with intention &nbsp;·&nbsp; Melbourne, AU</sub>
+</div>
