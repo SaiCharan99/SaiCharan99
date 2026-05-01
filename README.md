@@ -9,9 +9,7 @@
 
 ![](./divider.svg)
 
-I build things with care — software that feels intuitive, photographs that hold a moment, and movements in Iaido that embody *zanshin*.
-
-A software engineer with 4+ years of professional experience across mobile and web. Born in Andhra Pradesh, now based in Melbourne. Rooted in South Indian culture — its art, music, and philosophy guide how I approach both code and life.
+Full-stack engineer with 4+ years shipping production software across mobile and web. Co-founding [SiteSpace](https://sitespace.com.au) while completing a Masters at the University of Melbourne.
 
 <br>
 
