@@ -6,14 +6,12 @@
 
 # Venkata **Sai** Charan Naidu Kuppala
 
-<p>Software Engineer &nbsp;·&nbsp; Iaido Practitioner &nbsp;·&nbsp; Photographer &nbsp;·&nbsp; South Indian Culture</p>
 <p><sub>Melbourne, Australia &nbsp;·&nbsp; M.IT · University of Melbourne</sub></p>
 
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230D9488.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kvscn)&nbsp;
-[![Email](https://img.shields.io/badge/Gmail-%230D9488.svg?style=flat-square&logo=gmail&logoColor=white)](mailto:saicharanactive@gmail.com)&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-%230D9488.svg?style=flat-square&logo=vercel&logoColor=white)](https://sitespace.com.au)
+[![Email](https://img.shields.io/badge/Gmail-%230D9488.svg?style=flat-square&logo=gmail&logoColor=white)](mailto:saicharanactive@gmail.com)
 
 </div>
 
@@ -22,17 +20,6 @@
 I build things with care — software that feels intuitive, photographs that hold a moment, and movements in Iaido that embody *zanshin*.
 
 A software engineer with 4+ years of professional experience across mobile and web. Born in Andhra Pradesh, now based in Melbourne. Rooted in South Indian culture — its art, music, and philosophy guide how I approach both code and life.
-
-<br>
-
-**Currently**
-
-| | |
-|:--|:--|
-| `Co-Founder` | [SiteSpace](https://sitespace.com.au) — AI-powered construction asset booking · React Native · FastAPI · AWS |
-| `Intern` | Focus Bear, Melbourne — Mobile App Developer |
-| `Student` | University of Melbourne — Masters of Information Technology |
-| `President` | IHGSA — International House Graduate Student Association |
 
 <br>
 
