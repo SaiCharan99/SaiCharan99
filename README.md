@@ -106,6 +106,27 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 
 ![](./divider.svg)
 
+**Current Side Projects**
+
+<table>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/SaiCharan99/LensLore"><img src="./images/lenslore.png" width="100%"/></a>
+<br><br>
+<strong>LensLore AI</strong>
+<p align="left">Built LensLore AI, a storytelling platform for nature photographers that transforms each uploaded photo and journal reflection into a cinematic, full-page narrative experience with colour-aware visual ambience. Engineered as a cloud-native stack with Aurelia 2, Symfony 6, AWS Lambda (TypeScript), Claude Sonnet 4, PostgreSQL (RDS), Amazon S3, and CloudFront.</p>
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/SaiCharan99/Dash-EV"><img src="./images/dash-ev.png" width="100%"/></a>
+<br><br>
+<strong>Dash EV</strong>
+<p align="left">Built Dash EV, a dual-product analytics platform for EV market intelligence and Australian energy transition modelling, combining interactive dashboards with production-ready data services. Developed with FastAPI, Uvicorn, Dash 2.17, Plotly, pandas, pyarrow, Flask-Caching, OpenElectricity/AEMO-calibrated energy pipelines, and tested with pytest plus FastAPI and Flask test clients.</p>
+</td>
+</tr>
+</table>
+
+![](./divider.svg)
+
 **Tech**
 
 `JavaScript` `TypeScript` `Python` `Java` `Kotlin` `Swift` `C#` `GoLang` `SQL` `Bash`
