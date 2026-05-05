@@ -22,6 +22,41 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 
 ![](./divider.svg)
 
+**Current Fun**
+
+<table>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/SaiCharan99/LensLore"><img src="./images/lenslore.png" width="100%"/></a>
+<br><br>
+<strong>LensLore AI</strong>
+<p align="left">Built LensLore AI, a storytelling platform for nature photographers that turns uploaded photos and reflections into cinematic, full-page narratives with colour-aware ambience. Built using Aurelia 2, Symfony 6, AWS Lambda (TypeScript), Claude Sonnet 4, PostgreSQL (RDS), Amazon S3, and CloudFront.</p>
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/SaiCharan99/Dash-EV"><img src="./images/dash-ev.png" width="100%"/></a>
+<br><br>
+<strong>Dash EV</strong>
+<p align="left">Built Dash EV, a dual-product analytics platform for EV market intelligence and Australian energy transition modelling with interactive dashboards and production-ready data services. Developed with FastAPI, Uvicorn, Dash 2.17, Plotly, pandas, pyarrow, Flask-Caching, OpenElectricity/AEMO-calibrated pipelines, and pytest-based API testing.</p>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/SaiCharan99/personal-site"><img src="./images/personal-site.png" width="100%"/></a>
+<br><br>
+<strong>Personal Site</strong>
+<p align="left">Built a personal portfolio site to showcase projects, writing, and engineering focus areas through a clean, fast, and responsive experience. Designed for clarity and storytelling, with strong emphasis on craft, readability, and polished UI presentation.</p>
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/SaiCharan99/fruit-ninja-image-label"><img src="./images/fruit-ninja-image-label.png" width="100%"/></a>
+<br><br>
+<strong>Fruit Ninja Image Label</strong>
+<p align="left">Built a computer-vision labeling project inspired by Fruit Ninja gameplay to classify and tag fruit images for model-training workflows and annotation-driven experimentation. This implementation also powered components for the Senstride client project (<a href="http://main.d1ddvpozee4rfm.amplifyapp.com">live demo</a>).</p>
+</td>
+</tr>
+</table>
+
+![](./divider.svg)
+
 **Previous Work**
 
 <table>
@@ -80,18 +115,6 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 `AWS` `Azure` `GCP` `Docker` `Terraform` `PostgreSQL` `MongoDB` `Redis` `PostGIS`
 
 `Git` `Sentry` `PostHog` `Charles Proxy` `Figma` `Cursor` `Claude Code`
-
-![](./divider.svg)
-
-**Projects**
-
-[**Dash-EV**](https://github.com/SaiCharan99/Dash-EV) &nbsp;·&nbsp; Dual-product data analytics platform for EV market intelligence and Australian energy transition &nbsp;·&nbsp; FastAPI · Dash · Plotly
-
-[**SiteSpace**](https://sitespace.com.au) &nbsp;·&nbsp; AI-powered construction asset booking platform &nbsp;·&nbsp; *Co-Founder*
-
-[**EarlySpot**](https://earlydemospot.link) &nbsp;·&nbsp; Melanoma detection, deep learning model to production app
-
-[**Senstride**](http://main.d1ddvpozee4rfm.amplifyapp.com) &nbsp;·&nbsp; Gamified ML data labelling on serverless AWS
 
 ![](./divider.svg)
 
