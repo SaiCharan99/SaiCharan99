@@ -50,7 +50,7 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 <a href="https://github.com/SaiCharan99/fruit-ninja-image-label"><img src="./images/fruit-ninja-image-label.png" width="100%"/></a>
 <br><br>
 <strong>Fruit Ninja Image Label</strong>
-<p align="left">Built a computer-vision labeling project inspired by Fruit Ninja gameplay to classify and tag fruit images for model training workflows, with a practical pipeline for dataset preparation and annotation-driven experimentation.</p>
+<p align="left">Built a computer-vision labeling project inspired by Fruit Ninja gameplay to classify and tag fruit images for model training workflows, with a practical pipeline for dataset preparation and annotation-driven experimentation. This implementation was also used to develop components for the Senstride client project (<a href="http://main.d1ddvpozee4rfm.amplifyapp.com">live demo</a>).</p>
 </td>
 </tr>
 </table>
