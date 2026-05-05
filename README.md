@@ -20,8 +20,6 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 - Performance profiling and building apps that feel fast with minimal memory footprint
 - Turning messy real-world problems into clean, deliberate software
 
-![](./divider.svg)
-
 **Previous Work**
 
 <table>
@@ -80,18 +78,6 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 `AWS` `Azure` `GCP` `Docker` `Terraform` `PostgreSQL` `MongoDB` `Redis` `PostGIS`
 
 `Git` `Sentry` `PostHog` `Charles Proxy` `Figma` `Cursor` `Claude Code`
-
-![](./divider.svg)
-
-**Projects**
-
-[**Dash-EV**](https://github.com/SaiCharan99/Dash-EV) &nbsp;·&nbsp; Dual-product data analytics platform for EV market intelligence and Australian energy transition &nbsp;·&nbsp; FastAPI · Dash · Plotly
-
-[**SiteSpace**](https://sitespace.com.au) &nbsp;·&nbsp; AI-powered construction asset booking platform &nbsp;·&nbsp; *Co-Founder*
-
-[**EarlySpot**](https://earlydemospot.link) &nbsp;·&nbsp; Melanoma detection, deep learning model to production app
-
-[**Senstride**](http://main.d1ddvpozee4rfm.amplifyapp.com) &nbsp;·&nbsp; Gamified ML data labelling on serverless AWS
 
 ![](./divider.svg)
 
