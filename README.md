@@ -26,14 +26,14 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 <a href="https://github.com/SaiCharan99/LensLore"><img src="./images/lenslore.png" width="100%"/></a>
 <br><br>
 <strong>LensLore AI</strong>
 <p align="justify">Built LensLore AI, a storytelling platform for nature photographers that turns uploaded photos and reflections into cinematic, full-page narratives with colour-aware ambience.</p>
 <p align="justify"><strong>Stack:</strong> Aurelia 2 · Symfony 6 · AWS Lambda (TypeScript) · Claude Sonnet 4 · PostgreSQL (RDS) · Amazon S3 · CloudFront</p>
 </td>
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 <a href="https://github.com/SaiCharan99/Dash-EV"><img src="./images/dash-ev.png" width="100%"/></a>
 <br><br>
 <strong>Dash EV</strong>
@@ -42,14 +42,14 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 </td>
 </tr>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 <a href="https://github.com/SaiCharan99/personal-site"><img src="./images/personal-site.png" width="100%"/></a>
 <br><br>
 <strong>Personal Site</strong>
 <p align="justify">Built a personal portfolio site to showcase projects, writing, and engineering focus areas through a clean, fast, and responsive experience focused on clarity and storytelling.</p>
 <p align="justify"><strong>Stack:</strong> React 18 · Vite 5 · React Router DOM · Framer Motion · Lucide React</p>
 </td>
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 <a href="https://github.com/SaiCharan99/fruit-ninja-image-label"><img src="./images/fruit-ninja-image-label.png" width="100%"/></a>
 <br><br>
 <strong>Fruit Ninja Image Label</strong>
@@ -65,13 +65,13 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 <a href="https://www.sitespace.com.au"><img src="./images/sitespace-web.png" width="100%"/></a>
 <br><br>
 <strong>SiteSpace Web</strong>
 <p align="justify">Co-founded and built the SiteSpace web platform, a construction-focused asset management tool that helps teams track, organise, and maintain equipment and resources in one place, improving visibility and operational efficiency on site.</p>
 </td>
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 <a href="https://www.sitespace.com.au"><img src="./images/sitespace-mobile.png" width="100%"/></a>
 <br><br>
 <strong>SiteSpace Mobile</strong>
@@ -79,13 +79,13 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 </td>
 </tr>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 <a href="https://earlydemospot.link"><img src="./images/earlyspot.png" width="100%"/></a>
 <br><br>
 <strong>EarlySpot</strong>
 <p align="justify">Built an AI-powered melanoma detection platform that analyses skin lesion images to enable fast, non-invasive early diagnosis, empowering healthcare professionals with accurate insights when treatment is most effective.</p>
 </td>
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 <a href="https://apps.apple.com/au/app/focus-bear-built-for-audhders/id1673296334"><img src="./images/focus-bear.png" width="100%"/></a>
 <br><br>
 <strong>Focus Bear</strong>
@@ -93,13 +93,13 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 </td>
 </tr>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 <a href="https://apps.apple.com/us/app/the-childrens-place/id1292363109"><img src="./images/childrens-place.png" width="100%"/></a>
 <br><br>
 <strong>The Children's Place</strong>
 <p align="justify">Contributed to The Children's Place mobile app, an e-commerce platform for iOS and Android that enables families to browse and shop children's products with secure checkout, real-time inventory, personalised experiences, and order tracking.</p>
 </td>
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 <a href="https://apps.apple.com/us/app/sunbelt-rentals/id1553310095"><img src="./images/sunbelt.png" width="100%"/></a>
 <br><br>
 <strong>Sunbelt Rentals</strong>
