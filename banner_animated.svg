@@ -1,0 +1,172 @@
+<svg width="980" height="280" viewBox="0 0 980 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="ts" d="M 390 200 C 390 249.7 342.8 283.5 313.1 313.1 C 283.5 342.8 249.7 390 200 390 C 150.3 390 116.5 342.8 86.9 313.1 C 57.2 283.5 10 249.7 10 200 C 10 150.3 57.2 116.5 86.9 86.9 C 116.5 57.2 150.3 10 200 10 C 249.7 10 283.5 57.2 313.1 86.9 C 342.8 116.5 390 150.3 390 200 Z"/>
+    <clipPath id="pc">
+      <use href="#ts" transform="translate(200 200) scale(.88) translate(-200 -200)"/>
+    </clipPath>
+    <pattern id="sg" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <g fill="none" stroke="#14B8A6" stroke-width="2.4" stroke-linecap="square">
+        <path d="M 0 15 L 15 15 L 15 0 M 15 15 L 30 15 L 30 0 M 15 15 L 15 30 L 0 30 M 30 15 L 30 30 M 60 45 L 45 45 L 45 60 M 45 45 L 30 45 L 30 60 M 45 45 L 45 30 L 60 30 M 30 45 L 30 30 M 30 30 L 45 30 M 0 45 L 15 45 M 15 45 L 15 60 M 45 0 L 45 15 M 45 15 L 60 15"/>
+      </g>
+    </pattern>
+    <!-- clip waves to banner bounds -->
+    <clipPath id="wc"><rect width="980" height="280"/></clipPath>
+  </defs>
+
+  <style>
+    /* ── waves ── */
+    .w1 { animation: wl 14s linear infinite; }
+    .w2 { animation: wr  9s linear infinite; }
+    .w3 { animation: wl  6s linear infinite; }
+    @keyframes wl { from { transform: translateX(0);      } to { transform: translateX(-980px); } }
+    @keyframes wr { from { transform: translateX(-980px); } to { transform: translateX(0);      } }
+
+    /* ── zen leaves ── */
+    .lf { transform-box: fill-box; transform-origin: center; }
+
+    @keyframes br {
+      0%   { transform: translate(0px,   0px)  rotate(  0deg); opacity: 0;    }
+      12%  {                                                    opacity: 0.52; }
+      88%  {                                                    opacity: 0.22; }
+      100% { transform: translate(58px, -48px) rotate(205deg); opacity: 0;    }
+    }
+    @keyframes bl {
+      0%   { transform: translate(0px,   0px)  rotate(  0deg); opacity: 0;    }
+      12%  {                                                    opacity: 0.48; }
+      88%  {                                                    opacity: 0.18; }
+      100% { transform: translate(-50px,-44px) rotate(-192deg);opacity: 0;    }
+    }
+    @keyframes bu {
+      0%   { transform: translate(0px,   0px)  rotate(  0deg); opacity: 0;    }
+      12%  {                                                    opacity: 0.42; }
+      88%  {                                                    opacity: 0.18; }
+      100% { transform: translate(20px, -62px) rotate(148deg); opacity: 0;    }
+    }
+
+    .la1  { animation: br  7.5s  0.0s infinite; }
+    .la2  { animation: bl  9.0s  1.3s infinite; }
+    .la3  { animation: br  6.5s  2.7s infinite; }
+    .la4  { animation: bu  8.5s  0.6s infinite; }
+    .la5  { animation: bl  7.0s  1.9s infinite; }
+    .la6  { animation: bu  9.5s  3.2s infinite; }
+    .la7  { animation: br  6.0s  0.4s infinite; }
+    .la8  { animation: bl  8.0s  2.1s infinite; }
+    .la9  { animation: bu  7.5s  1.0s infinite; }
+    .la10 { animation: br  9.0s  3.5s infinite; }
+    .la11 { animation: bl  6.5s  2.4s infinite; }
+    .la12 { animation: bu  8.5s  0.9s infinite; }
+  </style>
+
+  <rect width="980" height="280" fill="#09242C"/>
+
+  <!-- Code texture -->
+  <text x="596" y="42"  font-family="'Courier New',monospace" font-size="10" fill="#14B8A6" opacity="0.09">const</text>
+  <text x="658" y="70"  font-family="'Courier New',monospace" font-size="10" fill="#0D9488"  opacity="0.10">&lt;/&gt;</text>
+  <text x="730" y="50"  font-family="'Courier New',monospace" font-size="10" fill="#14B8A6" opacity="0.09">async</text>
+  <text x="600" y="200" font-family="'Courier New',monospace" font-size="9"  fill="#0D9488"  opacity="0.08">fn()</text>
+  <text x="672" y="220" font-family="'Courier New',monospace" font-size="9"  fill="#14B8A6" opacity="0.09">import</text>
+  <text x="762" y="205" font-family="'Courier New',monospace" font-size="9"  fill="#0D9488"  opacity="0.07">01010</text>
+  <text x="598" y="248" font-family="'Courier New',monospace" font-size="10" fill="#14B8A6" opacity="0.08">{ }</text>
+  <text x="680" y="250" font-family="'Courier New',monospace" font-size="9"  fill="#0D9488"  opacity="0.08">// .</text>
+  <text x="762" y="248" font-family="'Courier New',monospace" font-size="9"  fill="#14B8A6" opacity="0.07">true</text>
+  <text x="106" y="40"  font-family="'Courier New',monospace" font-size="9"  fill="#0D9488"  opacity="0.06">01</text>
+  <text x="212" y="40"  font-family="'Courier New',monospace" font-size="9"  fill="#14B8A6" opacity="0.06">/&gt;</text>
+
+  <!-- Tsuba glow halos -->
+  <circle cx="888" cy="125" r="54" fill="#0D9488" opacity="0.04"/>
+  <circle cx="888" cy="125" r="45" fill="#0D9488" opacity="0.07"/>
+
+  <!-- Tsuba at (888,125), S=0.189 -->
+  <g transform="translate(888,125) scale(0.189) translate(-200,-200)">
+    <use href="#ts" fill="#0B2E37"/>
+    <g clip-path="url(#pc)">
+      <rect x="0" y="0" width="400" height="400" fill="url(#sg)" opacity="0.26"/>
+    </g>
+    <ellipse cx="200" cy="200" rx="78" ry="44" fill="#1A5C70" stroke="#14B8A6" stroke-width="6" opacity="0.50"/>
+    <ellipse cx="200" cy="200" rx="73" ry="39" fill="none" stroke="#0D9488" stroke-width="2.5" opacity="0.30"/>
+    <use href="#ts" fill="none" stroke="#14B8A6" stroke-width="9.5" opacity="0.85"/>
+    <g transform="translate(200 200) scale(.93) translate(-200 -200)">
+      <use href="#ts" fill="none" stroke="#0D9488" stroke-width="2.6" opacity="0.45"/>
+    </g>
+    <path d="M 200 154 C 207 154 211 160 212 168 L 215 232 C 215 242 209 250 200 250 C 191 250 185 242 185 232 L 188 168 C 189 160 193 154 200 154 Z" fill="#09242C" stroke="none"/>
+    <path d="M 165 200 C 165 192 158 188 149 188 C 138 188 130 196 130 204 C 130 212 138 220 149 220 C 158 220 165 216 165 208 Z" fill="#09242C" stroke="none"/>
+    <path d="M 235 200 C 235 192 244 188 254 188 C 263 188 270 194 270 200 C 270 208 263 220 254 220 C 244 220 235 214 235 208 Z" fill="#09242C" stroke="none"/>
+  </g>
+
+  <!-- ── Zen leaves — each <g> sets base position + orientation; CSS animates the drift ── -->
+  <!-- leaf path: simple elongated teardrop, tip at (0,-14), base at (0,0) -->
+  <g transform="translate(118,44) rotate(-22)">
+    <path class="lf la1"  d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#14B8A6"/>
+  </g>
+  <g transform="translate(382,78) rotate(38)">
+    <path class="lf la2"  d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#0D9488"/>
+  </g>
+  <g transform="translate(548,128) rotate(-38)">
+    <path class="lf la3"  d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#2DD4BF"/>
+  </g>
+  <g transform="translate(698,50) rotate(62)">
+    <path class="lf la4"  d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#14B8A6"/>
+  </g>
+  <g transform="translate(814,92) rotate(-52)">
+    <path class="lf la5"  d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#0D9488"/>
+  </g>
+  <g transform="translate(938,162) rotate(18)">
+    <path class="lf la6"  d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#14B8A6"/>
+  </g>
+  <g transform="translate(198,196) rotate(72)">
+    <path class="lf la7"  d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#0D9488"/>
+  </g>
+  <g transform="translate(468,198) rotate(-62)">
+    <path class="lf la8"  d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#14B8A6"/>
+  </g>
+  <g transform="translate(642,232) rotate(28)">
+    <path class="lf la9"  d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#2DD4BF"/>
+  </g>
+  <g transform="translate(792,208) rotate(-28)">
+    <path class="lf la10" d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#0D9488"/>
+  </g>
+  <g transform="translate(298,252) rotate(55)">
+    <path class="lf la11" d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#14B8A6"/>
+  </g>
+  <g transform="translate(535,258) rotate(-42)">
+    <path class="lf la12" d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#0D9488"/>
+  </g>
+
+  <!-- Vertical accent line -->
+  <line x1="24" y1="44" x2="24" y2="230" stroke="#0D9488" stroke-width="1" opacity="0.3"/>
+  <circle cx="24" cy="44"  r="2" fill="#0D9488" opacity="0.4"/>
+  <circle cx="24" cy="230" r="2" fill="#0D9488" opacity="0.4"/>
+
+  <!-- Greeting -->
+  <text x="38" y="62"
+    font-family="'Noto Sans','Segoe UI',Arial,sans-serif"
+    font-size="12" fill="#2DD4BF" opacity="0.90" letter-spacing="1.5">Hello · నమస్కారం · வணக்கம் · नमस्ते · Hola · こんにちは</text>
+
+  <text x="36" y="118"
+    font-family="Georgia,'Times New Roman',serif"
+    font-size="48" font-weight="400" fill="#EAF4F3" letter-spacing="-1">Venkata</text>
+
+  <text x="36" y="174"
+    font-family="Georgia,'Times New Roman',serif"
+    font-size="48" font-weight="400" fill="#EAF4F3" letter-spacing="-1"><tspan fill="#2DD4BF" font-weight="600">Sai</tspan> Charan Naidu</text>
+
+  <text x="36" y="230"
+    font-family="Georgia,'Times New Roman',serif"
+    font-size="48" font-weight="400" fill="#EAF4F3" letter-spacing="-1">Kuppala</text>
+
+  <!-- Animated ocean waves — doubled to 1960px for seamless loop, clipped to banner -->
+  <g clip-path="url(#wc)">
+    <g class="w1">
+      <path d="M0,254 C163,234 327,274 490,254 C653,234 817,274 980,254 C1143,234 1307,274 1470,254 C1633,234 1797,274 1960,254 L1960,280 L0,280 Z"
+        fill="#0D9488" opacity="0.18"/>
+    </g>
+    <g class="w2">
+      <path d="M0,262 C130,248 262,276 392,262 C522,248 653,276 784,262 C848,256 915,268 980,262 C1110,248 1242,276 1372,262 C1502,248 1633,276 1764,262 C1828,256 1895,268 1960,262 L1960,280 L0,280 Z"
+        fill="#0D9488" opacity="0.12"/>
+    </g>
+    <g class="w3">
+      <path d="M0,270 C245,258 490,280 735,270 C857,264 919,276 980,270 C1225,258 1470,280 1715,270 C1837,264 1899,276 1960,270 L1960,280 L0,280 Z"
+        fill="#14B8A6" opacity="0.08"/>
+    </g>
+  </g>
+</svg>
