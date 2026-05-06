@@ -101,11 +101,11 @@
   <text x="212" y="40"  font-family="'Courier New',monospace" font-size="9"  fill="#14B8A6" opacity="0.06">/&gt;</text>
 
   <!-- Tsuba glow halos -->
-  <circle cx="888" cy="125" r="54" fill="#0D9488" opacity="0.04"/>
-  <circle cx="888" cy="125" r="45" fill="#0D9488" opacity="0.07"/>
+  <circle cx="888" cy="158" r="54" fill="#0D9488" opacity="0.04"/>
+  <circle cx="888" cy="158" r="45" fill="#0D9488" opacity="0.07"/>
 
   <!-- Tsuba -->
-  <g transform="translate(888,125) scale(0.189) translate(-200,-200)">
+  <g transform="translate(888,158) scale(0.189) translate(-200,-200)">
     <use href="#ts" fill="#0B2E37"/>
     <g clip-path="url(#pc)">
       <rect x="0" y="0" width="400" height="400" fill="url(#sg)" opacity="0.26"/>
