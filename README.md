@@ -47,14 +47,14 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 <br><br>
 <strong>Personal Site</strong>
 <p align="justify">Built a personal portfolio site to showcase projects, writing, and engineering focus areas through a clean, fast, and responsive experience focused on clarity and storytelling.</p>
-<p align="justify"><strong>Stack:</strong> Stack details to be synced from project README.</p>
+<p align="justify"><strong>Stack:</strong> React 18 · Vite 5 · React Router DOM · Framer Motion · Lucide React</p>
 </td>
 <td align="center" width="50%">
 <a href="https://github.com/SaiCharan99/fruit-ninja-image-label"><img src="./images/fruit-ninja-image-label.png" width="100%"/></a>
 <br><br>
 <strong>Fruit Ninja Image Label</strong>
 <p align="justify">Built a computer-vision labeling project inspired by Fruit Ninja gameplay to classify and tag fruit images for model-training workflows and annotation-driven experimentation. This implementation also powered components for the Senstride client project (<a href="http://main.d1ddvpozee4rfm.amplifyapp.com">live demo</a>).</p>
-<p align="justify"><strong>Stack:</strong> Stack details to be synced from project README.</p>
+<p align="justify"><strong>Stack:</strong> React 18 (TypeScript) · Vite · Tailwind CSS · Framer Motion · Lucide React</p>
 </td>
 </tr>
 </table>
