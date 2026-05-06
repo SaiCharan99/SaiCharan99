@@ -9,7 +9,6 @@
         <path d="M 0 15 L 15 15 L 15 0 M 15 15 L 30 15 L 30 0 M 15 15 L 15 30 L 0 30 M 30 15 L 30 30 M 60 45 L 45 45 L 45 60 M 45 45 L 30 45 L 30 60 M 45 45 L 45 30 L 60 30 M 30 45 L 30 30 M 30 30 L 45 30 M 0 45 L 15 45 M 15 45 L 15 60 M 45 0 L 45 15 M 45 15 L 60 15"/>
       </g>
     </pattern>
-    <!-- clip waves to banner bounds -->
     <clipPath id="wc"><rect width="980" height="280"/></clipPath>
   </defs>
 
@@ -21,40 +20,69 @@
     @keyframes wl { from { transform: translateX(0);      } to { transform: translateX(-980px); } }
     @keyframes wr { from { transform: translateX(-980px); } to { transform: translateX(0);      } }
 
-    /* ── zen leaves ── */
-    .lf { transform-box: fill-box; transform-origin: center; }
+    /* ── leaves: three-layer composition ──
+       Layer 1 (.ht)  : horizontal travel, right → left, linear
+       Layer 2 (.vb)  : gentle vertical bob, ease-in-out
+       Layer 3 (.dg)  : dangle/sway rotation around leaf centre, ease-in-out  */
 
-    @keyframes br {
-      0%   { transform: translate(0px,   0px)  rotate(  0deg); opacity: 0;    }
-      12%  {                                                    opacity: 0.52; }
-      88%  {                                                    opacity: 0.22; }
-      100% { transform: translate(58px, -48px) rotate(205deg); opacity: 0;    }
+    @keyframes travel {
+      from { transform: translateX(-28px);  }
+      to   { transform: translateX(1010px); }
     }
-    @keyframes bl {
-      0%   { transform: translate(0px,   0px)  rotate(  0deg); opacity: 0;    }
-      12%  {                                                    opacity: 0.48; }
-      88%  {                                                    opacity: 0.18; }
-      100% { transform: translate(-50px,-44px) rotate(-192deg);opacity: 0;    }
+    @keyframes vbob {
+      0%   { transform: translateY(  0px); }
+      25%  { transform: translateY(-10px); }
+      75%  { transform: translateY( 10px); }
+      100% { transform: translateY(  0px); }
     }
-    @keyframes bu {
-      0%   { transform: translate(0px,   0px)  rotate(  0deg); opacity: 0;    }
-      12%  {                                                    opacity: 0.42; }
-      88%  {                                                    opacity: 0.18; }
-      100% { transform: translate(20px, -62px) rotate(148deg); opacity: 0;    }
+    @keyframes dangle {
+      0%   { transform: rotate(-18deg); }
+      30%  { transform: rotate( 14deg); }
+      65%  { transform: rotate(-10deg); }
+      100% { transform: rotate(-18deg); }
     }
 
-    .la1  { animation: br  7.5s  0.0s infinite; }
-    .la2  { animation: bl  9.0s  1.3s infinite; }
-    .la3  { animation: br  6.5s  2.7s infinite; }
-    .la4  { animation: bu  8.5s  0.6s infinite; }
-    .la5  { animation: bl  7.0s  1.9s infinite; }
-    .la6  { animation: bu  9.5s  3.2s infinite; }
-    .la7  { animation: br  6.0s  0.4s infinite; }
-    .la8  { animation: bl  8.0s  2.1s infinite; }
-    .la9  { animation: bu  7.5s  1.0s infinite; }
-    .la10 { animation: br  9.0s  3.5s infinite; }
-    .la11 { animation: bl  6.5s  2.4s infinite; }
-    .la12 { animation: bu  8.5s  0.9s infinite; }
+    /* shared base classes */
+    .ht { animation-name: travel;  animation-timing-function: linear;      animation-iteration-count: infinite; }
+    .vb { animation-name: vbob;    animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+    .dg { animation-name: dangle;  animation-timing-function: ease-in-out; animation-iteration-count: infinite;
+          transform-box: fill-box; transform-origin: center; }
+
+    /* per-leaf horizontal travel — slow zen drift, negative delay pre-seeds position */
+    .ht1  { animation-duration: 38s; animation-delay:   0s; }
+    .ht2  { animation-duration: 48s; animation-delay: -18s; }
+    .ht3  { animation-duration: 34s; animation-delay: -10s; }
+    .ht4  { animation-duration: 44s; animation-delay: -28s; }
+    .ht5  { animation-duration: 52s; animation-delay: -40s; }
+    .ht6  { animation-duration: 42s; animation-delay: -15s; }
+    .ht7  { animation-duration: 36s; animation-delay: -24s; }
+    .ht8  { animation-duration: 46s; animation-delay:  -6s; }
+    .ht9  { animation-duration: 50s; animation-delay: -36s; }
+    .ht10 { animation-duration: 40s; animation-delay: -22s; }
+
+    /* per-leaf vertical bob — slow and dreamy */
+    .vb1  { animation-duration: 5.5s; animation-delay:  0.0s; }
+    .vb2  { animation-duration: 4.8s; animation-delay: -1.5s; }
+    .vb3  { animation-duration: 6.0s; animation-delay: -2.8s; }
+    .vb4  { animation-duration: 4.5s; animation-delay: -0.8s; }
+    .vb5  { animation-duration: 5.2s; animation-delay: -2.2s; }
+    .vb6  { animation-duration: 4.2s; animation-delay: -1.8s; }
+    .vb7  { animation-duration: 5.8s; animation-delay: -0.5s; }
+    .vb8  { animation-duration: 4.6s; animation-delay: -3.2s; }
+    .vb9  { animation-duration: 5.4s; animation-delay: -1.1s; }
+    .vb10 { animation-duration: 5.0s; animation-delay: -2.0s; }
+
+    /* per-leaf dangle — unhurried sway */
+    .dg1  { animation-duration: 4.2s; animation-delay:  0.0s; }
+    .dg2  { animation-duration: 4.8s; animation-delay: -1.0s; }
+    .dg3  { animation-duration: 3.8s; animation-delay: -2.0s; }
+    .dg4  { animation-duration: 5.2s; animation-delay: -0.6s; }
+    .dg5  { animation-duration: 4.5s; animation-delay: -2.5s; }
+    .dg6  { animation-duration: 5.5s; animation-delay: -1.4s; }
+    .dg7  { animation-duration: 4.0s; animation-delay: -0.4s; }
+    .dg8  { animation-duration: 5.0s; animation-delay: -3.0s; }
+    .dg9  { animation-duration: 4.4s; animation-delay: -1.6s; }
+    .dg10 { animation-duration: 4.7s; animation-delay: -0.8s; }
   </style>
 
   <rect width="980" height="280" fill="#09242C"/>
@@ -76,7 +104,7 @@
   <circle cx="888" cy="125" r="54" fill="#0D9488" opacity="0.04"/>
   <circle cx="888" cy="125" r="45" fill="#0D9488" opacity="0.07"/>
 
-  <!-- Tsuba at (888,125), S=0.189 -->
+  <!-- Tsuba -->
   <g transform="translate(888,125) scale(0.189) translate(-200,-200)">
     <use href="#ts" fill="#0B2E37"/>
     <g clip-path="url(#pc)">
@@ -93,43 +121,76 @@
     <path d="M 235 200 C 235 192 244 188 254 188 C 263 188 270 194 270 200 C 270 208 263 220 254 220 C 244 220 235 214 235 208 Z" fill="#09242C" stroke="none"/>
   </g>
 
-  <!-- ── Zen leaves — each <g> sets base position + orientation; CSS animates the drift ── -->
-  <!-- leaf path: simple elongated teardrop, tip at (0,-14), base at (0,0) -->
-  <g transform="translate(118,44) rotate(-22)">
-    <path class="lf la1"  d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#14B8A6"/>
+  <!-- ═══ ZEN LEAVES ═══
+       Structure per leaf:
+         <g transform="translate(0, Y)">   ← fixes vertical lane
+           <g class="ht htN">              ← horizontal travel (right→left)
+             <g class="vb vbN">            ← vertical bob
+               <path class="dg dgN" …/>   ← dangle rotation + leaf shape
+             </g>
+           </g>
+         </g>
+       Large leaf : M0,0 C-4,-7 -4,-17 0,-21 C4,-17 4,-7 0,0  (21px tall)
+       Medium leaf: M0,0 C-3,-5 -3,-15 0,-18 C3,-15 3,-5 0,0  (18px tall) -->
+
+  <g transform="translate(0,38)">
+    <g class="ht ht1"><g class="vb vb1">
+      <path class="dg dg1" d="M0,0 C-4,-7 -4,-17 0,-21 C4,-17 4,-7 0,0" fill="#14B8A6" opacity="0.55"/>
+    </g></g>
   </g>
-  <g transform="translate(382,78) rotate(38)">
-    <path class="lf la2"  d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#0D9488"/>
+
+  <g transform="translate(0,82)">
+    <g class="ht ht2"><g class="vb vb2">
+      <path class="dg dg2" d="M0,0 C-3,-5 -3,-15 0,-18 C3,-15 3,-5 0,0" fill="#0D9488" opacity="0.50"/>
+    </g></g>
   </g>
-  <g transform="translate(548,128) rotate(-38)">
-    <path class="lf la3"  d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#2DD4BF"/>
+
+  <g transform="translate(0,55)">
+    <g class="ht ht3"><g class="vb vb3">
+      <path class="dg dg3" d="M0,0 C-4,-7 -4,-17 0,-21 C4,-17 4,-7 0,0" fill="#2DD4BF" opacity="0.45"/>
+    </g></g>
   </g>
-  <g transform="translate(698,50) rotate(62)">
-    <path class="lf la4"  d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#14B8A6"/>
+
+  <g transform="translate(0,125)">
+    <g class="ht ht4"><g class="vb vb4">
+      <path class="dg dg4" d="M0,0 C-3,-5 -3,-15 0,-18 C3,-15 3,-5 0,0" fill="#14B8A6" opacity="0.50"/>
+    </g></g>
   </g>
-  <g transform="translate(814,92) rotate(-52)">
-    <path class="lf la5"  d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#0D9488"/>
+
+  <g transform="translate(0,168)">
+    <g class="ht ht5"><g class="vb vb5">
+      <path class="dg dg5" d="M0,0 C-4,-7 -4,-17 0,-21 C4,-17 4,-7 0,0" fill="#0D9488" opacity="0.45"/>
+    </g></g>
   </g>
-  <g transform="translate(938,162) rotate(18)">
-    <path class="lf la6"  d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#14B8A6"/>
+
+  <g transform="translate(0,98)">
+    <g class="ht ht6"><g class="vb vb6">
+      <path class="dg dg6" d="M0,0 C-3,-5 -3,-15 0,-18 C3,-15 3,-5 0,0" fill="#2DD4BF" opacity="0.48"/>
+    </g></g>
   </g>
-  <g transform="translate(198,196) rotate(72)">
-    <path class="lf la7"  d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#0D9488"/>
+
+  <g transform="translate(0,205)">
+    <g class="ht ht7"><g class="vb vb7">
+      <path class="dg dg7" d="M0,0 C-4,-7 -4,-17 0,-21 C4,-17 4,-7 0,0" fill="#14B8A6" opacity="0.42"/>
+    </g></g>
   </g>
-  <g transform="translate(468,198) rotate(-62)">
-    <path class="lf la8"  d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#14B8A6"/>
+
+  <g transform="translate(0,148)">
+    <g class="ht ht8"><g class="vb vb8">
+      <path class="dg dg8" d="M0,0 C-3,-5 -3,-15 0,-18 C3,-15 3,-5 0,0" fill="#0D9488" opacity="0.48"/>
+    </g></g>
   </g>
-  <g transform="translate(642,232) rotate(28)">
-    <path class="lf la9"  d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#2DD4BF"/>
+
+  <g transform="translate(0,220)">
+    <g class="ht ht9"><g class="vb vb9">
+      <path class="dg dg9" d="M0,0 C-4,-7 -4,-17 0,-21 C4,-17 4,-7 0,0" fill="#2DD4BF" opacity="0.40"/>
+    </g></g>
   </g>
-  <g transform="translate(792,208) rotate(-28)">
-    <path class="lf la10" d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#0D9488"/>
-  </g>
-  <g transform="translate(298,252) rotate(55)">
-    <path class="lf la11" d="M0,0 C-2.5,-4 -2.5,-11 0,-14 C2.5,-11 2.5,-4 0,0" fill="#14B8A6"/>
-  </g>
-  <g transform="translate(535,258) rotate(-42)">
-    <path class="lf la12" d="M0,0 C-2,-3.5 -2,-10 0,-12 C2,-10 2,-3.5 0,0" fill="#0D9488"/>
+
+  <g transform="translate(0,68)">
+    <g class="ht ht10"><g class="vb vb10">
+      <path class="dg dg10" d="M0,0 C-3,-5 -3,-15 0,-18 C3,-15 3,-5 0,0" fill="#14B8A6" opacity="0.50"/>
+    </g></g>
   </g>
 
   <!-- Vertical accent line -->
@@ -154,7 +215,7 @@
     font-family="Georgia,'Times New Roman',serif"
     font-size="48" font-weight="400" fill="#EAF4F3" letter-spacing="-1">Kuppala</text>
 
-  <!-- Animated ocean waves — doubled to 1960px for seamless loop, clipped to banner -->
+  <!-- Animated waves — paths doubled to 1960px, clipped to banner -->
   <g clip-path="url(#wc)">
     <g class="w1">
       <path d="M0,254 C163,234 327,274 490,254 C653,234 817,274 980,254 C1143,234 1307,274 1470,254 C1633,234 1797,274 1960,254 L1960,280 L0,280 Z"
