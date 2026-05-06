@@ -1,4 +1,4 @@
-![](./banner.svg)
+![](./banner_animated.svg)
 
 <div align="center">
 
