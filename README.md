@@ -22,46 +22,7 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 
 ![](./divider.svg)
 
-**Current Fun**
-
-<table>
-<tr>
-<td align="center" width="50%">
-<a href="https://github.com/SaiCharan99/LensLore"><img src="./images/lenslore.png" width="100%"/></a>
-<br><br>
-<strong>LensLore AI</strong>
-<p align="justify">Built LensLore AI, a storytelling platform for nature photographers that turns uploaded photos and reflections into cinematic, full-page narratives with colour-aware ambience.</p>
-<p align="justify"><strong>Stack:</strong> Aurelia 2 · Symfony 6 · AWS Lambda (TypeScript) · Claude Sonnet 4 · PostgreSQL (RDS) · Amazon S3 · CloudFront</p>
-</td>
-<td align="center" width="50%">
-<a href="https://github.com/SaiCharan99/Dash-EV"><img src="./images/dash-ev.png" width="100%"/></a>
-<br><br>
-<strong>Dash EV</strong>
-<p align="justify">Built Dash EV, a dual-product analytics platform for EV market intelligence and Australian energy transition modelling with interactive dashboards and production-ready data services.</p>
-<p align="justify"><strong>Stack:</strong> FastAPI · Uvicorn · Dash 2.17 · Plotly · pandas · pyarrow · Flask-Caching · OpenElectricity · pytest · FastAPI TestClient · Flask test client</p>
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
-<a href="https://github.com/SaiCharan99/personal-site"><img src="./images/personal-site.png" width="100%"/></a>
-<br><br>
-<strong>Personal Site</strong>
-<p align="justify">Built a personal portfolio site to showcase projects, writing, and engineering focus areas through a clean, fast, and responsive experience focused on clarity and storytelling.</p>
-<p align="justify"><strong>Stack:</strong> Stack details to be synced from project README.</p>
-</td>
-<td align="center" width="50%">
-<a href="https://github.com/SaiCharan99/fruit-ninja-image-label"><img src="./images/fruit-ninja-image-label.png" width="100%"/></a>
-<br><br>
-<strong>Fruit Ninja Image Label</strong>
-<p align="justify">Built a computer-vision labeling project inspired by Fruit Ninja gameplay to classify and tag fruit images for model-training workflows and annotation-driven experimentation. This implementation also powered components for the Senstride client project (<a href="http://main.d1ddvpozee4rfm.amplifyapp.com">live demo</a>).</p>
-<p align="justify"><strong>Stack:</strong> Stack details to be synced from project README.</p>
-</td>
-</tr>
-</table>
-
-![](./divider.svg)
-
-**Previous Work**
+**Work**
 
 <table>
 <tr>
@@ -108,7 +69,48 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 </tr>
 </table>
 
+
 ![](./divider.svg)
+
+**Fun Projects**
+
+<table>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/SaiCharan99/LensLore"><img src="./images/lenslore.png" width="100%"/></a>
+<br><br>
+<strong>LensLore AI</strong>
+<p align="justify">Built LensLore AI, a storytelling platform for nature photographers that turns uploaded photos and reflections into cinematic, full-page narratives with colour-aware ambience.</p>
+<p align="justify"><strong>Stack:</strong> Aurelia 2 · Symfony 6 · AWS Lambda (TypeScript) · Claude Sonnet 4 · PostgreSQL (RDS) · Amazon S3 · CloudFront</p>
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/SaiCharan99/Dash-EV"><img src="./images/dash-ev.png" width="100%"/></a>
+<br><br>
+<strong>Dash EV</strong>
+<p align="justify">Built Dash EV, a dual-product analytics platform for EV market intelligence and Australian energy transition modelling with interactive dashboards and production-ready data services.</p>
+<p align="justify"><strong>Stack:</strong> FastAPI · Uvicorn · Dash 2.17 · Plotly · pandas · pyarrow · Flask-Caching · OpenElectricity · pytest · FastAPI TestClient · Flask test client</p>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/SaiCharan99/personal-site"><img src="./images/personal-site.png" width="100%"/></a>
+<br><br>
+<strong>Personal Site</strong>
+<p align="justify">Built a personal portfolio site to showcase projects, writing, and engineering focus areas through a clean, fast, and responsive experience focused on clarity and storytelling.</p>
+<p align="justify"><strong>Stack:</strong> Stack details to be synced from project README.</p>
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/SaiCharan99/fruit-ninja-image-label"><img src="./images/fruit-ninja-image-label.png" width="100%"/></a>
+<br><br>
+<strong>Fruit Ninja Image Label</strong>
+<p align="justify">Built a computer-vision labeling project inspired by Fruit Ninja gameplay to classify and tag fruit images for model-training workflows and annotation-driven experimentation. This implementation also powered components for the Senstride client project (<a href="http://main.d1ddvpozee4rfm.amplifyapp.com">live demo</a>).</p>
+<p align="justify"><strong>Stack:</strong> Stack details to be synced from project README.</p>
+</td>
+</tr>
+</table>
+
+![](./divider.svg)
+
 
 **Tech**
 

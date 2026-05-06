@@ -34,20 +34,20 @@
   <g transform="translate(888,125) scale(0.189) translate(-200,-200)">
     <use href="#ts" fill="#0B2E37"/>
     <g clip-path="url(#pc)">
-      <rect x="0" y="0" width="400" height="400" fill="url(#sg)" opacity="0.07"/>
+      <rect x="0" y="0" width="400" height="400" fill="url(#sg)" opacity="0.26"/>
     </g>
-    <ellipse cx="200" cy="200" rx="78" ry="44" fill="#1A5C70" stroke="#14B8A6" stroke-width="13" opacity="0.90"/>
-    <ellipse cx="200" cy="200" rx="73" ry="39" fill="none" stroke="#0D9488" stroke-width="5" opacity="0.50"/>
+    <ellipse cx="200" cy="200" rx="78" ry="44" fill="#1A5C70" stroke="#14B8A6" stroke-width="6" opacity="0.50"/>
+    <ellipse cx="200" cy="200" rx="73" ry="39" fill="none" stroke="#0D9488" stroke-width="2.5" opacity="0.30"/>
     <use href="#ts" fill="none" stroke="#14B8A6" stroke-width="9.5" opacity="0.85"/>
     <g transform="translate(200 200) scale(.93) translate(-200 -200)">
       <use href="#ts" fill="none" stroke="#0D9488" stroke-width="2.6" opacity="0.45"/>
     </g>
     <path d="M 200 154 C 207 154 211 160 212 168 L 215 232 C 215 242 209 250 200 250 C 191 250 185 242 185 232 L 188 168 C 189 160 193 154 200 154 Z"
-      fill="#09242C" stroke="#14B8A6" stroke-width="9.5" opacity="0.90"/>
+      fill="#09242C" stroke="none"/>
     <path d="M 165 200 C 165 192 158 188 149 188 C 138 188 130 196 130 204 C 130 212 138 220 149 220 C 158 220 165 216 165 208 Z"
-      fill="#09242C" stroke="#0D9488" stroke-width="6" opacity="0.65"/>
+      fill="#09242C" stroke="none"/>
     <path d="M 235 200 C 235 192 244 188 254 188 C 263 188 270 194 270 200 C 270 208 263 220 254 220 C 244 220 235 214 235 208 Z"
-      fill="#09242C" stroke="#0D9488" stroke-width="6" opacity="0.65"/>
+      fill="#09242C" stroke="none"/>
   </g>
 
   <!-- Vertical accent line -->
