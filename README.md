@@ -28,10 +28,10 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 <table>
 <tr>
 <td align="center" colspan="2" valign="top">
-<a href="https://github.com/SaiCharan99/VideoGenAI"><img src="./images/video-gen-ai.png" width="100%"/></a>
+<a href="https://github.com/SaiCharan99/VideoGenAI"><img src="./images/video-gen-ai.png" width="80%"/></a>
 <br><br>
 <strong>VideoGenAI</strong>
-<p align="justify">Built VideoGenAI, a TypeScript monorepo that turns a one-line idea into a researched, cited, scripted, animated, and voiced YouTube video through durable pipeline stages with human approval gates. The system is designed around configurable channels, structured LLM outputs, citation enforcement, and a future Next.js cockpit for reviewing each stage before render and publish.</p>
+<p align="justify">Building VideoGenAI, a TypeScript monorepo that turns a one-line idea into a researched, cited, scripted, animated, and voiced YouTube video through durable pipeline stages with human approval gates. The system is designed around configurable channels, structured LLM outputs, citation enforcement, and a future Next.js cockpit for reviewing each stage before render and publish.</p>
 <p align="justify"><strong>Stack:</strong> TypeScript · pnpm · Inngest · Anthropic Claude SDK · Zod · Brave Search API · Neon Postgres · Drizzle ORM · Next.js 15 · Remotion · ElevenLabs · Pexels · Replicate · Flux · Veo · Whisper · YouTube Data API</p>
 </td>
 </tr>
@@ -40,14 +40,14 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 <a href="https://github.com/SaiCharan99/LensLore"><img src="./images/lenslore.png" width="100%"/></a>
 <br><br>
 <strong>LensLore AI</strong>
-<p align="justify">Built LensLore AI, a storytelling platform for nature photographers that turns uploaded photos and reflections into cinematic, full-page narratives with colour-aware ambience.</p>
+<p align="justify">Building LensLore AI, a storytelling platform for nature photographers that turns uploaded photos and reflections into cinematic, full-page narratives with colour-aware ambience.</p>
 <p align="justify"><strong>Stack:</strong> Aurelia 2 · Symfony 6 · AWS Lambda (TypeScript) · Claude Sonnet 4 · PostgreSQL (RDS) · Amazon S3 · CloudFront</p>
 </td>
 <td align="center" width="50%" valign="top">
 <a href="https://github.com/SaiCharan99/Dash-EV"><img src="./images/dash-ev.png" width="100%"/></a>
 <br><br>
 <strong>Dash EV</strong>
-<p align="justify">Built Dash EV, a dual-product analytics platform for EV market intelligence and Australian energy transition modelling with interactive dashboards and production-ready data services.</p>
+<p align="justify">Building Dash EV, a dual-product analytics platform for EV market intelligence and Australian energy transition modelling with interactive dashboards and production-ready data services.</p>
 <p align="justify"><strong>Stack:</strong> FastAPI · Uvicorn · Dash 2.17 · Plotly · pandas · pyarrow · Flask-Caching · OpenElectricity · pytest · FastAPI TestClient · Flask test client</p>
 </td>
 </tr>
@@ -56,7 +56,7 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 <a href="https://github.com/SaiCharan99/personal-site"><img src="./images/personal-site.png" width="100%"/></a>
 <br><br>
 <strong>Personal Site</strong>
-<p align="justify">Built a personal portfolio site to showcase projects, writing, and engineering focus areas through a clean, fast, and responsive experience focused on clarity and storytelling.</p>
+<p align="justify">Building a personal portfolio site to showcase projects, writing, and engineering focus areas through a clean, fast, and responsive experience focused on clarity and storytelling.</p>
 <p align="justify"><strong>Stack:</strong> React 18 · Vite 5 · React Router DOM · Framer Motion · Lucide React</p>
 </td>
 <td align="center" width="50%" valign="top">
