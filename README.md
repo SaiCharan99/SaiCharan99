@@ -28,7 +28,9 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 <table>
 <tr>
 <td align="center" colspan="2" valign="top">
-<a href="https://github.com/SaiCharan99/VideoGenAI"><strong>VideoGenAI</strong></a>
+<a href="https://github.com/SaiCharan99/VideoGenAI"><img src="./images/video-gen-ai.png" width="100%"/></a>
+<br><br>
+<strong>VideoGenAI</strong>
 <p align="justify">Built VideoGenAI, a TypeScript monorepo that turns a one-line idea into a researched, cited, scripted, animated, and voiced YouTube video through durable pipeline stages with human approval gates. The system is designed around configurable channels, structured LLM outputs, citation enforcement, and a future Next.js cockpit for reviewing each stage before render and publish.</p>
 <p align="justify"><strong>Stack:</strong> TypeScript · pnpm · Inngest · Anthropic Claude SDK · Zod · Brave Search API · Neon Postgres · Drizzle ORM · Next.js 15 · Remotion · ElevenLabs · Pexels · Replicate · Flux · Veo · Whisper · YouTube Data API</p>
 </td>
