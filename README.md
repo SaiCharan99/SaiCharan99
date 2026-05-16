@@ -82,7 +82,7 @@ Full-stack engineer with 4+ years shipping production software across mobile and
 <p align="justify">Co-founded and built the SiteSpace web platform, a construction-focused asset management tool that helps teams track, organise, and maintain equipment and resources in one place, improving visibility and operational efficiency on site.</p>
 </td>
 <td align="center" width="50%" valign="top">
-<a href="[https://www.sitespace.com.au](https://apps.apple.com/au/app/sitespace/id6761886694)"><img src="./images/sitespace-mobile.png" width="100%"/></a>
+<a href="https://apps.apple.com/au/app/sitespace/id6761886694"><img src="./images/sitespace-mobile.png" width="100%"/></a>
 <br><br>
 <strong>SiteSpace Mobile</strong>
 <p align="justify">Co-founded and built the SiteSpace mobile app, a responsive application for construction asset booking that helps businesses engage users, scale effectively, and manage on-site operations from any device.</p>
